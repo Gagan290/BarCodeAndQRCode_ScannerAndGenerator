@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BarCode And QRCode</string>
+
+    <string name="bar_code">Bar Code</string>
+    <string name="bar_code_generator">Bar Code Generator</string>
+    <string name="qr_code">QR Code</string>
+    <string name="qr_code_generator">QR Code Generator</string>
+
+    <string name="title_activity_main">MainActivity</string>
+</resources>

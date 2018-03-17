@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    
+    >
+    
+  
+  
+<TextView 
+    android:text="Please enter barcode number or scan code"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#000000"
+    android:layout_marginTop="20dp"   />
+    
+
+<TextView 
+    android:text="Barcode No."
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#00589c"
+    android:layout_marginTop="20dp"
+    android:textStyle="bold"
+    />
+
+
+<LinearLayout 
+    android:orientation="horizontal"
+    android:weightSum="10"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    >
+    
+    <EditText 
+        android:id="@+id/barcode"
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="7"
+        />
+    
+    <Button 
+        android:id="@+id/scan"
+        android:text="scan"
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_weight="3"
+        android:textSize="20sp"
+        android:layout_marginLeft="5dp"
+        android:textColor="#ffffff"
+        />
+    
+</LinearLayout>
+
+
+ <Button 
+        android:id="@+id/scansubmitt"
+        android:text="submit"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:textSize="20sp"
+          android:layout_marginLeft="20dp"
+          android:layout_marginRight="20dp"
+          android:layout_marginTop="50dp"
+          android:textColor="#ffffff"
+        />
+    
+
+
+</LinearLayout>

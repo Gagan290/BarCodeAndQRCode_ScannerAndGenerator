@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.activity.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_barCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bar Code Scanner" />
+
+        <Button
+            android:id="@+id/btn_barCodeGenerator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bar Code Generator" />
+
+        <Button
+            android:id="@+id/btn_qrCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="QR Code Scanner" />
+
+        <Button
+            android:id="@+id/btn_qrCodeGenerator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="QR Code Generator" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+    <!--<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context="com.activity.MainActivity"
+        tools:showIn="@layout/activity_main">
+
+    </android.support.constraint.ConstraintLayout>-->
